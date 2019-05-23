@@ -3,7 +3,8 @@ import './dropdown.scss';
 import {Flip} from 'react-reveal';
 
 class DropDown extends Component {
-
+    //this is a comment
+    //this is an another comment
     state = {
         opened: false,
         closing: false,
@@ -22,6 +23,12 @@ class DropDown extends Component {
             })
         }       
     }
+
+    /*this 
+    is 
+    some 
+    big 
+    comment*/
 
     render() {
         const {opened, list, closing} = this.state;
